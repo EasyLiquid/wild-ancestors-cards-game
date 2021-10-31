@@ -54,7 +54,7 @@ function drawCards(player, field) {
 	}
 }
 
-const socket = new WebSocket('ws://localhost:3000')
+const socket = new WebSocket('wss://https://wild-ancestors-cards-game.glitch.me')
 
 socket.onopen = (event) => {
 	socket.send(JSON.stringify({nameEvent: 'new player'}))
