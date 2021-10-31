@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cards</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="public/style.css" type="text/css">
+	</head>
+	<body>
+		<div id="table">
+			<div class="cards" id="hero1">
+				<div id="name_hero1"></div>
+				<div title="Атака" id="attack_hero1"></div>
+				<div title="Здоровье" id="health_hero1"></div>
+			</div>
+			
+			<div class="cards" id="deck1">
+				<div id="count_deck1"></div>
+			</div>
+			<div class="field" id="hand1"></div>
+			<div class="field" id="played1"></div>
+			<div class="cards" id="discard1">
+				<div id="count_discard1"></div>
+			</div>
+			
+			<div class="cards" id="hero2">
+				<div id="name_hero2"></div>
+				<div title="Атака" id="attack_hero2"></div>
+				<div title="Здоровье" id="health_hero2"></div>
+			</div>
+			
+			<div class="cards" id="deck2">
+				<div id="count_deck2"></div>
+			</div>
+			<div class="field" id="hand2"></div>
+			<div class="field" id="played2"></div>
+			<div class="cards" id="discard2">
+				<div id="count_discard2"></div>
+			</div>
+			
+			<div id="message"></div>
+			<button onclick="toNextStep()" id="button_next_step">Следующий ход</button>
+			<div class="mana" id="mana">Мана: <div class="mana" id="mana1"></div> / <div class="mana" id="mana2"></div></div>
+		</div>
+		
+		<script src="public/game.js"></script>
+	</body>
+</html>

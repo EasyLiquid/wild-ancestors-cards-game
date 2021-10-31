@@ -1,0 +1,75 @@
+html, body {
+	width: 99%;
+	height: 99%;
+}
+
+.cards {
+	width: 60px;
+	height: 91px;
+	border: solid 1px;
+	position: absolute;
+}
+
+.field {
+	height: 101px;
+	border: solid 1px;
+	overflow: auto;
+	position: absolute;
+}
+
+.mana {
+	display: inline;
+}
+
+#table {
+	width: 99%;
+	height: 99%;
+	border: solid 1px;
+}
+
+#name_hero1, #name_hero2 {
+	text-align: center;
+	position: relative;
+}
+
+#attack_hero1, #attack_hero2 {
+	width: 5px;
+	height: 5px;
+	position: relative;
+	top: 50px;
+	left: 5px;
+}
+
+#health_hero1, #health_hero2 {
+	width: 5px;
+	height: 5px;
+	position: relative;
+	top: 44px;
+	left: 42px;
+}
+
+#count_deck1, #count_discard1, #count_deck2, #count_discard2 {
+	text-align: center;
+	position: relative;
+	top: 32px;
+}
+
+#message {
+	width: 30%;
+	overflow: auto;
+	position: absolute;
+	top: 72%;
+	left: 3%;
+}
+
+#button_next_step {
+	position: absolute;
+	top: 72%;
+	left: 45%;
+}
+
+#mana {
+	position: absolute;
+	top: 72%;
+	left: 87%;
+}
