@@ -199,11 +199,11 @@ class Table {
 		player2.message = player1.message
 		
 		// если здоровье героя <= 0
-		if (defenseCard == player2.hero && player1.hero.health > 0) {
+		if (player2.hero.health <= 0 && player1.hero.health > 0) {
 			
 			// сообщения для игроков
-			player1.message += `\n<b>ВЫ ПОБЕДИЛИ!</b>`
-			player2.message += `\n<b>ВЫ ПРОИГРАЛИ!</b>`
+			player1.message += `\nВЫ ПОБЕДИЛИ!`
+			player2.message += `\nВЫ ПРОИГРАЛИ!`
 			
 			// очистка массивов руки
 			player1.hand = []
